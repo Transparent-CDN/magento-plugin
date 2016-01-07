@@ -3,6 +3,7 @@ Plugin de invalidado de cache en publicaciones para Magento
 
 ## Instalación y configuración
 Guia para instalar un módulo de Magento de forma manual
+
 1. Ir a la administración de nuestra web Magento
     www.baseUrl.com/admin
 
