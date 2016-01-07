@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+   <adminhtml_management_index>
+        <reference name="content">
+            <block type="transparent/management" name="transparent_cdn" template="transparent/cdn_management.phtml"/>
+        </reference>   
+    </adminhtml_management_index>
+</layout>

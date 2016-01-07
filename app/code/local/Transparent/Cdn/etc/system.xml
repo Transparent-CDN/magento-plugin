@@ -1,0 +1,55 @@
+<config>
+    <tabs>
+        <transparent_cdn translate="label" module="transparent_cdn">
+            <label>Transparent CDN</label>
+            <sort_order>99999</sort_order>
+        </transparent_cdn>
+    </tabs>
+    <sections>
+    	<transparent_management translate="label" module="transparent_cdn">
+    		<label>Configuration</label>
+            <tab>transparent_cdn</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>Client configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+				        <company>
+				            <label>Company id</label>
+				            <frontend_type>text</frontend_type>
+				            <sort_order>1</sort_order>
+				            <show_in_default>1</show_in_default>
+				            <show_in_website>0</show_in_website>
+				            <show_in_store>0</show_in_store>
+				        </company>
+				        <user>
+				            <label>Client key</label>
+				            <frontend_type>text</frontend_type>
+				            <sort_order>2</sort_order>
+				            <show_in_default>1</show_in_default>
+				            <show_in_website>0</show_in_website>
+				            <show_in_store>0</show_in_store>
+				        </user>
+				        <password>
+				            <label>Secret key</label>
+				            <frontend_type>text</frontend_type>
+				            <sort_order>3</sort_order>
+				            <show_in_default>1</show_in_default>
+				            <show_in_website>0</show_in_website>
+				            <show_in_store>0</show_in_store>
+				        </password>
+				    </fields>
+                </general>
+            </groups>
+    	</transparent_management>
+    </sections>
+</config>
